@@ -2002,5 +2002,4 @@ newButton(
     function()
         useGetCallingScript = not useGetCallingScript
         TextLabel.Text = string.format("[%s] [UNSAFE] Uses 'getcallingscript' to get calling script for Decompile and GetScript. Much more reliable, but opens up SimpleSpy to detection and/or instability.", useGetCallingScript and "ENABLED" or "DISABLED")
-    end
-)
+    end)
